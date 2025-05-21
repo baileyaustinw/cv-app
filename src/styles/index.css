@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea {
+  padding: 0.25rem;
+  border-radius: 8px;
+  border: solid 1px grey;
+  width: 100%;
+}
+
+input[type="submit"] {
+  padding: 0.5rem;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 2rem;
+}
